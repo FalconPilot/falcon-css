@@ -13,11 +13,21 @@ Here is a general documentation to be able to use efficiently the library.
 ## Display types
 
 * `flex-row` [*class*]
+
 Define a flex container with row-aligned children.
 
-**example :** `<div class="flex-row">(...)</div>`
+_Example_
+
+```html
+<div class="flex-row">(...)</div>
+```
 ---
 * `flex-col` [*class*]
+
 Define a flex container with column-aligned children.
 
-**example :** `<div class="flex-col">(...)</div>`
+_Example_
+
+```html
+<div class="flex-col">(...)</div>
+```
