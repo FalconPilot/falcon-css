@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img src="https://image.noelshack.com/fichiers/2018/01/3/1514992470-falconcss.png" alt="FalconCSS" style="width: 200px;"/>
+  <img src="https://image.noelshack.com/fichiers/2018/01/3/1514992470-falconcss.png" alt="FalconCSS" align="middle"/>
 </div>
 
 # Falcon CSS Library
