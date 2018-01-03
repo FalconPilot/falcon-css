@@ -12,7 +12,7 @@ Here is a general documentation to be able to use efficiently the library.
 
 ## Display types
 
-* `flex-row` [*class*]
+* `flex-row` [__class__]
 
 Define a flex container with row-aligned children.
 
@@ -22,7 +22,7 @@ _Example_
 <div class="flex-row">(...)</div>
 ```
 ---
-* `flex-col` [*class*]
+* `flex-col` [__class__]
 
 Define a flex container with column-aligned children.
 
