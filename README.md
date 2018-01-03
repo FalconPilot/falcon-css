@@ -14,6 +14,12 @@ interface elements without requiring too much thinking or tinkering.
 
 Here is a general documentation to be able to use efficiently the library.
 
+## Table of contents
+
+* [Flex container definitions](#flex-container-definitions)
+* [Flex container children alignments](#flex-children-alignments)
+
+<a name="flex-container-definitions"/>
 ## Flex container definitions
 
 * `flex-row` [__class__]
@@ -34,6 +40,7 @@ ___Example___
 <div class="flex-col">(...)</div>
 ```
 
+<a name="flex-children-alignments"/>
 ## Flex container children alignments
 
 ### Important note
