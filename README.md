@@ -17,8 +17,8 @@ Here is a general documentation to be able to use efficiently the library.
 ## Table of contents
 
 * [Flex container definitions](#flex-container-definitions)
-••* [flex-row](#flex-row)
-••* [flex-col](#flex-col)
+⋅⋅* [flex-row](#flex-row)
+⋅⋅* [flex-col](#flex-col)
 * [Flex container children alignments](#flex-children-alignments)
 
 <a name="flex-container-definitions"/>
