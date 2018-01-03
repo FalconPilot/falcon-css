@@ -1,4 +1,6 @@
-![alt text](https://image.noelshack.com/fichiers/2018/01/3/1514992470-falconcss.png "FalconCSS")
+<div style="text-align: center">
+  <img src="https://image.noelshack.com/fichiers/2018/01/3/1514992470-falconcss.png" alt="FalconCSS" style="width: 200px"/>
+</div>
 
 # Falcon CSS Library
 
