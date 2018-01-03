@@ -17,11 +17,15 @@ Here is a general documentation to be able to use efficiently the library.
 ## Table of contents
 
 * [Flex container definitions](#flex-container-definitions)
+••* [flex-row](#flex-row)
+••* [flex-col](#flex-col)
 * [Flex container children alignments](#flex-children-alignments)
 
 <a name="flex-container-definitions"/>
 
 ## Flex container definitions
+
+<a name="flex-row"/>
 
 * `flex-row` [__class__]
 
@@ -32,6 +36,9 @@ ___Example___
 <div class="flex-row">(...)</div>
 ```
 ---
+
+<a name="flex-col"/>
+
 * `flex-col` [__class__]
 
 Define a flex container with column-aligned children.
