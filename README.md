@@ -16,7 +16,7 @@ Here is a general documentation to be able to use efficiently the library.
 
 Define a flex container with row-aligned children.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-row">(...)</div>
@@ -26,7 +26,7 @@ _Example_
 
 Define a flex container with column-aligned children.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-col">(...)</div>
@@ -45,7 +45,7 @@ direction might be. It works as well with a container using `flex-row`,
 
 Vertically center the children of a flex container.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-row center-v">(...)</div>
@@ -55,7 +55,7 @@ _Example_
 
 Horizontally center the children of a flex container.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-row center-h">(...)</div>
@@ -66,7 +66,7 @@ _Example_
 This class is just an equivalent of `center-v center-h`. It's used mostly to
 save space and avoid very long CSS classlists.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-col flex-middle">(...)</div>
@@ -80,7 +80,7 @@ _Example_
 
 Vertically align the children of a flex container from its top border.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-row flex-top">(...)</div>
@@ -90,7 +90,7 @@ _Example_
 
 Vertically align the children of a flex container from its bottom border.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-row flex-bottom">(...)</div>
@@ -100,7 +100,7 @@ _Example_
 
 Horizontally align the children of a flex container from its left border.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-row flex-left">(...)</div>
@@ -110,7 +110,7 @@ _Example_
 
 Horizontally align the children of a flex container from its right border.
 
-_Example_
+___Example___
 
 ```html
 <div class="flex-col flex-right">(...)</div>
