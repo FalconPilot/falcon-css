@@ -49,6 +49,9 @@ following elements :
   * [flex-left](#flex-left)
   * [flex-right](#flex-right)
 
+* [Title formatting classes](#title-formatting-classes)
+  * [centered-title](#centered-title)
+
 <a name="main-structure"/>
 
 ## Main structure
@@ -72,7 +75,7 @@ pattern on your webpage :
 </body>
 ```
 
-___Example___
+___Usage example___
 ```html
 <body id="falcon-body">(...)</body>
 ```
@@ -84,7 +87,7 @@ ___Example___
 
 Only compatible with a `<header>` tag. Best used inside `#falcon-body`.
 
-___Example___
+___Usage example___
 ```html
 <header id="falcon-header">(...)</header>
 ```
@@ -96,7 +99,7 @@ ___Example___
 
 Only compatible with a `<main>` tag. Best used inside `#falcon-body`.
 
-___Example___
+___Usage example___
 ```html
 <main id="falcon-container">(...)</main>
 ```
@@ -108,7 +111,7 @@ ___Example___
 
 Only compatible with a `<footer>` tag. Best used inside `#falcon-body`.
 
-___Example___
+___Usage example___
 ```html
 <footer id="falcon-footer">(...)</footer>
 ```
@@ -123,7 +126,7 @@ ___Example___
 
 Define a flex container with row-aligned children.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-row">(...)</div>
 ```
@@ -135,7 +138,7 @@ ___Example___
 
 Define a flex container with column-aligned children.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-col">(...)</div>
 ```
@@ -158,7 +161,7 @@ direction might be. It works as well with a container using `flex-row`,
 
 Vertically center the children of a flex container.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-row center-v">(...)</div>
 ```
@@ -170,7 +173,7 @@ ___Example___
 
 Horizontally center the children of a flex container.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-row center-h">(...)</div>
 ```
@@ -183,7 +186,7 @@ ___Example___
 This class is just an equivalent of `center-v center-h`. It's used mostly to
 save space and avoid very long CSS classlists.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-col flex-middle">(...)</div>
 
@@ -199,7 +202,7 @@ ___Example___
 
 Vertically align the children of a flex container from its top border.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-row flex-top">(...)</div>
 ```
@@ -211,7 +214,7 @@ ___Example___
 
 Vertically align the children of a flex container from its bottom border.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-row flex-bottom">(...)</div>
 ```
@@ -223,7 +226,7 @@ ___Example___
 
 Horizontally align the children of a flex container from its left border.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-row flex-left">(...)</div>
 ```
@@ -235,7 +238,23 @@ ___Example___
 
 Horizontally align the children of a flex container from its right border.
 
-___Example___
+___Usage example___
 ```html
 <div class="flex-col flex-right">(...)</div>
+```
+
+<a name="title-formatting-classes"/>
+
+## Title formatting classes
+
+<a name="centered-title"/>
+
+* `.centered-title` [__class__]
+
+Define a title element as taking 100% of its parent width at least and
+centering any of its inline children (text, images, etc...)
+
+___Usage example___
+```html
+<h1 class="centered-title">(...)</h1>
 ```
