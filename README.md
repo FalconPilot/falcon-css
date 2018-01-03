@@ -20,7 +20,7 @@ This library should be compatible with any web browser that supports the
 following elements :
 
 - Flexboxes
-- `vw`/`vh` measurment units
+- `vw`/`vh` measurement units
 
 # Table of contents
 
