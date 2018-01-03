@@ -8,7 +8,7 @@
 **  Since I use a lot of comments, I highly suggest using a CSS minifier
 **  to use it.
 **
-**  I didn't even bother 
+**  I didn't even bother
 */
 
 /*
@@ -27,6 +27,11 @@
 
 .flex-col.center-v,
 .flex-row.center-h { justify-content: center; }
+
+.flex-middle {
+  align-items: center;
+  justify-content: center;
+}
 
 /* Top/bottom, left/right alignments */
 
