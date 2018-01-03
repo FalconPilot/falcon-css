@@ -1,6 +1,6 @@
-<div style="text-align: center;">
-  <img src="https://image.noelshack.com/fichiers/2018/01/3/1514992470-falconcss.png" alt="FalconCSS" align="middle"/>
-</div>
+<p align="center">
+  <img src="https://image.noelshack.com/fichiers/2018/01/3/1514992470-falconcss.png" alt="FalconCSS"/>
+</p>
 
 # Falcon CSS Library
 
