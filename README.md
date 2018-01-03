@@ -39,6 +39,7 @@ __Important note__
 Those classes are used to align flex container children whatever its flex
 direction might be. It works as well with a container using `flex-row`,
 `flex-col`, etc...
+
 ---
 * `center-v` [__class__]
 
