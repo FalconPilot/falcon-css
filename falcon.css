@@ -12,6 +12,20 @@
 */
 
 /*
+**  Main body class
+*/
+
+body#falcon-body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 12px;
+}
+
+@media(min-width: 2000px) {
+  body#falcon-body { font-size: 24px; }
+}
+
+/*
 **  Flexbox classes
 */
 
