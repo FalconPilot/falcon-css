@@ -20,6 +20,13 @@ Here is a general documentation to be able to use efficiently the library.
   * [flex-row](#flex-row)
   * [flex-col](#flex-col)
 * [Flex container children alignments](#flex-children-alignments)
+  * [center-v](#center-v)
+  * [center-h](#center-h)
+  * [flex-middle](#flex-middle)
+  * [flex-top](#flex-top)
+  * [flex-bottom](#flex-bottom)
+  * [flex-left](#flex-left)
+  * [flex-right](#flex-right)
 
 <a name="flex-container-definitions"/>
 
@@ -59,6 +66,9 @@ direction might be. It works as well with a container using `flex-row`,
 `flex-col`, etc...
 
 ---
+
+<a name="center-v"/>
+
 * `center-v` [__class__]
 
 Vertically center the children of a flex container.
@@ -68,6 +78,9 @@ ___Example___
 <div class="flex-row center-v">(...)</div>
 ```
 ---
+
+<a name="center-h"/>
+
 * `center-h` [__class__]
 
 Horizontally center the children of a flex container.
@@ -77,6 +90,9 @@ ___Example___
 <div class="flex-row center-h">(...)</div>
 ```
 ---
+
+<a name="flex-middle"/>
+
 * `flex-middle` [__class__]
 
 This class is just an equivalent of `center-v center-h`. It's used mostly to
@@ -91,6 +107,9 @@ ___Example___
 <div class="flex-col center-v center-h">(...)</div>
 ```
 ---
+
+<a name="flex-top"/>
+
 * `flex-top` [__class__]
 
 Vertically align the children of a flex container from its top border.
@@ -100,6 +119,9 @@ ___Example___
 <div class="flex-row flex-top">(...)</div>
 ```
 ---
+
+<a name="flex-bottom"/>
+
 * `flex-bottom` [__class__]
 
 Vertically align the children of a flex container from its bottom border.
@@ -109,6 +131,9 @@ ___Example___
 <div class="flex-row flex-bottom">(...)</div>
 ```
 ---
+
+<a name="flex-left"/>
+
 * `flex-left` [__class__]
 
 Horizontally align the children of a flex container from its left border.
@@ -118,6 +143,9 @@ ___Example___
 <div class="flex-row flex-left">(...)</div>
 ```
 ---
+
+<a name="flex-right"/>
+
 * `flex-right` [__class__]
 
 Horizontally align the children of a flex container from its right border.
