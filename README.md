@@ -14,8 +14,10 @@ Here is a general documentation to be able to use efficiently the library.
 
 * `flex-row` [*class*]
 Define a flex container with row-aligned children.
+
 **example : `<div class="flex-row">(...)</div>`**
 ---
 * `flex-col` [*class*]
 Define a flex container with column-aligned children.
+
 **example : `<div class="flex-col">(...)</div>`**
