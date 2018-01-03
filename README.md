@@ -34,7 +34,7 @@ _Example_
 
 ## Flex container children alignments
 
-#### Important note
+### Important note
 
 Those classes are used to align flex container children whatever its flex
 direction might be. It works as well with a container using `flex-row`,
@@ -63,13 +63,17 @@ _Example_
 ---
 * `flex-middle` [__class__]
 
-The `flex-middle` class is basically just the equivalent of `center-v center-h`.
-It's used mostly to save space and avoid very long CSS classlists.
+This class is just an equivalent of `center-v center-h`. It's used mostly to
+save space and avoid very long CSS classlists.
 
 _Example_
 
 ```html
 <div class="flex-col flex-middle">(...)</div>
+
+<!-- Both of those lines render absolutely the same way -->
+
+<div class="flex-col center-v center-h">(...)</div>
 ```
 ---
 * `flex-top` [__class__]
