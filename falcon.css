@@ -1,0 +1,43 @@
+/*
+**  Falcon CSS Library
+**
+**  Created by FalconPilot <https://github.com/FalconPilot>
+**
+**  I originally created this library for personal use, but if you want to
+**  import it in your project, do as you want.
+**  Since I use a lot of comments, I highly suggest using a CSS minifier
+**  to use it.
+**
+**  I didn't even bother 
+*/
+
+/*
+**  Flexbox classes
+*/
+
+.flex-row,
+.flex-col { display: flex; }
+
+.flex-row { flex-direction: row; }
+.flex-col { flex-direction: column; }
+
+/* Vertical and horizontal centering */
+.flex-row.center-v,
+.flex-col.center-h { align-items: center; }
+
+.flex-col.center-v,
+.flex-row.center-h { justify-content: center; }
+
+/* Top/bottom, left/right alignments */
+
+.flex-row.flex-top,
+.flex-col.flex-left { align-items: flex-start; }
+
+.flex-row.flex-bottom,
+.flex-col.flex-right { align-items: flex-end; }
+
+.flex-row.flex-left,
+.flex-col.flex-top { justify-content: flex-start; }
+
+.flex-row.flex-right,
+.flex-col.flex-bottom { justify-content: flex-end; }
