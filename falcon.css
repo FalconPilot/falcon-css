@@ -89,7 +89,12 @@ main#falcon-container {
 **  Title styling classes
 */
 
-.centered-title {
+h1.centered-title,
+h2.centered-title,
+h3.centered-title,
+h4.centered-title,
+h5.centered-title,
+h6.centered-title {
   min-width:  100%;
 
   text-align: center;

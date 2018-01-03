@@ -252,7 +252,8 @@ ___Usage example___
 * `.centered-title` [__class__]
 
 Define a title element as taking 100% of its parent width at least and
-centering any of its inline children (text, images, etc...)
+centering any of its inline children. This class is only compatible with the
+`h1` to `h6` tags, for semantic purposes.
 
 ___Usage example___
 ```html
