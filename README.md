@@ -10,6 +10,12 @@ yourself, feel free to do so :)
 It's based on a strong usage of flexboxes to quickly and efficiently display
 interface elements without requiring too much thinking or tinkering.
 
+You can clone the repository and check the `demo.html` file to get an idea of
+what an example page built only with very few complementary CSS looks like.
+
+You can also look at the `demo.html` source code to get some inspiration if
+you want.
+
 # General documentation
 
 Here is a general documentation to be able to use efficiently the library.
@@ -26,6 +32,9 @@ following elements :
 
 * [Main structure](#main-structure)
   * [falcon-body](#falcon-body)
+  * [falcon-header](#falcon-header)
+  * [falcon-container](#falcon-container)
+  * [falcon-footer](#falcon-footer)
 
 * [Flex container definitions](#flex-container-definitions)
   * [flex-row](#flex-row)
@@ -52,11 +61,57 @@ This optional - although highly recommended - ID can only be used on a
 `body` tag. It ensures your webpage's body always at least fills in the
 entire client's viewport.
 
+When using this ID, it is advisable to use the following basic structuration
+pattern on your webpage :
+
+```html
+<body id="falcon-body">
+  <header id="falcon-header">(...)</header>
+  <main id="falcon-container">(...)</main>
+  <footer id="falcon-footer">(...)</footer>
+</body>
+```
+
 ___Example___
 ```html
 <body id="falcon-body">(...)</body>
 ```
 ---
+
+<a name="falcon-header"/>
+
+* `#falcon-header` [__id__]
+
+Only compatible with a `<header>` tag. Best used inside `#falcon-body`.
+
+___Example___
+```html
+<header id="falcon-header">(...)</header>
+```
+---
+
+<a name="falcon-container"/>
+
+* `#falcon-container` [__id__]
+
+Only compatible with a `<main>` tag. Best used inside `#falcon-body`.
+
+___Example___
+```html
+<main id="falcon-container">(...)</main>
+```
+---
+
+<a name="falcon-footer"/>
+
+* `#falcon-footer` [__id__]
+
+Only compatible with a `<footer>` tag. Best used inside `#falcon-body`.
+
+___Example___
+```html
+<footer id="falcon-footer">(...)</footer>
+```
 
 <a name="flex-container-definitions"/>
 
