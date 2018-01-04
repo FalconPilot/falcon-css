@@ -85,6 +85,10 @@ main#falcon-container {
 .flex-row.flex-right,
 .flex-col.flex-bottom { justify-content: flex-end; }
 
+/* HR fix */
+.flex-row > hr,
+.flex-col > hr { width: 100%; }
+
 /*
 **  Title styling classes
 */
