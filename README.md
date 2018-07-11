@@ -49,6 +49,9 @@ following elements :
   * [flex-left](#flex-left)
   * [flex-right](#flex-right)
 
+* [Miscallenous flex classes](#flex-misc-classes)
+  * [flex-wrap](#flex-wrap)
+
 * [Title formatting classes](#title-formatting-classes)
   * [centered-title](#centered-title)
 
@@ -58,9 +61,9 @@ following elements :
 
 <a name="falcon-body"/>
 
-* `#falcon-body` [__id__]
+* `.falcon-body` [__class__]
 
-This optional - although highly recommended - ID can only be used on a
+This optional - although highly recommended - class can only be used on a
 `body` tag. It ensures your webpage's body always at least fills in the
 entire client's viewport.
 
@@ -68,52 +71,52 @@ When using this ID, it is advisable to use the following basic structuration
 pattern on your webpage :
 
 ```html
-<body id="falcon-body">
-  <header id="falcon-header">(...)</header>
-  <main id="falcon-container">(...)</main>
-  <footer id="falcon-footer">(...)</footer>
+<body class="falcon-body">
+  <header class="falcon-header">(...)</header>
+  <main class="falcon-container">(...)</main>
+  <footer class="falcon-footer">(...)</footer>
 </body>
 ```
 
 ___Usage example___
 ```html
-<body id="falcon-body">(...)</body>
+<body class="falcon-body">(...)</body>
 ```
 ---
 
 <a name="falcon-header"/>
 
-* `#falcon-header` [__id__]
+* `.falcon-header` [__class__]
 
-Only compatible with a `<header>` tag. Best used inside `#falcon-body`.
+Only compatible with a `<header>` tag. Best used inside `.falcon-body`.
 
 ___Usage example___
 ```html
-<header id="falcon-header">(...)</header>
+<header class="falcon-header">(...)</header>
 ```
 ---
 
 <a name="falcon-container"/>
 
-* `#falcon-container` [__id__]
+* `.falcon-container` [__class__]
 
-Only compatible with a `<main>` tag. Best used inside `#falcon-body`.
+Only compatible with a `<main>` tag. Best used inside `.falcon-body`.
 
 ___Usage example___
 ```html
-<main id="falcon-container">(...)</main>
+<main class="falcon-container">(...)</main>
 ```
 ---
 
 <a name="falcon-footer"/>
 
-* `#falcon-footer` [__id__]
+* `.falcon-footer` [__class__]
 
-Only compatible with a `<footer>` tag. Best used inside `#falcon-body`.
+Only compatible with a `<footer>` tag. Best used inside `.falcon-body`.
 
 ___Usage example___
 ```html
-<footer id="falcon-footer">(...)</footer>
+<footer class="falcon-footer">(...)</footer>
 ```
 
 <a name="flex-container-definitions"/>
@@ -241,6 +244,21 @@ Horizontally align the children of a flex container from its right border.
 ___Usage example___
 ```html
 <div class="flex-col flex-right">(...)</div>
+```
+
+<a name="misc-flex-classes"/>
+
+## Miscallenous CSS classes
+
+<a name="flex-wrap"/>
+
+* `.flex-wrap` [__class__]
+
+Make a flexbox container wrap. Compatible with `.flex-row` and `.flex-col` elements.
+
+___Usage example___
+```html
+<div class="flex-row flex-wrap">(...)</div>
 ```
 
 <a name="title-formatting-classes"/>

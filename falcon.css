@@ -16,7 +16,7 @@
 */
 
 /* Main body ID */
-body#falcon-body {
+body.falcon-body {
   min-width:        100vw;
   min-height:       100vh;
 
@@ -31,23 +31,21 @@ body#falcon-body {
   justify-content:  center;
 }
 
-@media(min-width: 2000px) { body#falcon-body { font-size: 24px; } }
+@media(min-width: 2000px) { body.falcon-body { font-size: 24px; } }
 
 /* Common structural properties */
-header#falcon-header,
-main#falcon-container,
-footer#falcon-footer { min-width: 100%; }
+header.falcon-header,
+main.falcon-container,
+footer.falcon-footer { min-width: 100%; }
 
 /* Main header ID */
-header#falcon-header {
+header.falcon-header {
   padding:    1em;
   box-sizing: border-box;
 }
 
 /* Main container ID */
-main#falcon-container {
-  flex: 1;
-}
+main.falcon-container { flex: 1; }
 
 /*
 **  Flexbox classes
@@ -72,7 +70,6 @@ main#falcon-container {
 }
 
 /* Top/bottom, left/right alignments */
-
 .flex-row.flex-top,
 .flex-col.flex-left { align-items: flex-start; }
 
@@ -88,6 +85,9 @@ main#falcon-container {
 /* HR fix */
 .flex-row > hr,
 .flex-col > hr { width: 100%; }
+
+/* Flex wrapping */
+.flex-wrap { flex-wrap: wrap; }
 
 /*
 **  Title styling classes
